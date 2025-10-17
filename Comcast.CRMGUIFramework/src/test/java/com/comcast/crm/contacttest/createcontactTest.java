@@ -40,10 +40,7 @@ String USERNAME =	fu.getdataFromPropertiesFile("username")	;
 String PASSWORD =	fu.getdataFromPropertiesFile("password")	;
 
 
-//generate random number
-//Random random = new Random();
-//int randomInt    =     random.nextInt(1000);
-//System.out.println(randomInt);
+
 JavaUtility ju = new JavaUtility();
 
 //read data from excel file
