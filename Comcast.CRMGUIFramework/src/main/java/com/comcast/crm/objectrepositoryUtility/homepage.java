@@ -14,6 +14,9 @@ WebDriver driver;
 	@FindBy(linkText = "Contacts")
 	private WebElement contactlink;
 	
+	@FindBy(linkText = "Products")
+	private WebElement Productslink;
+	
 	public WebElement getContactlink() {
 		return contactlink;
 	}
